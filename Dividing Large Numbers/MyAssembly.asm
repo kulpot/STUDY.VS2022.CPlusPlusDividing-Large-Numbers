@@ -13,11 +13,12 @@ doit proc
 
 	; ----Dividing Large Numbers---
 
-	mov eax, 0xFFFFFFFFh	; largest 64bit value
-	mov edx, 0xFFFFFFFFh
+	mov eax, 0FFFFFFFFh	; largest 64bit value
+	mov edx, 0FFFFFFFFh
 	mov ebx, 2
 	div ebx
 	ret
+	;error - integer overflow
 
 
 	;mov eax, 9		; eax(0000 0009) has the answer, edx(0000 0001) has the remainder
