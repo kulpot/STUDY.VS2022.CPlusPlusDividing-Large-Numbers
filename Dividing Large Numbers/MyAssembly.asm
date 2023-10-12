@@ -13,7 +13,7 @@ doit proc
 
 	; ----Dividing Large Numbers---
 
-	mov eax, 9
+	mov eax, 9		; eax(0000 0009) has the answer, edx(0000 0001) has the remainder
 	mov ebx, 2
 	mov edx, 1
 	div ebx
