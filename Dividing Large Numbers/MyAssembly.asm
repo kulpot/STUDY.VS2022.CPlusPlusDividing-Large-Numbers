@@ -13,7 +13,7 @@ doit proc
 
 	; ----Dividing Large Numbers---
 
-	mov eax, 0xFFFFFFFFh
+	mov eax, 0xFFFFFFFFh	; largest 64bit value
 	mov edx, 0xFFFFFFFFh
 	mov ebx, 2
 	div ebx
