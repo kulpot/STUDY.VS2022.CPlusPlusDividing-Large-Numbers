@@ -18,7 +18,7 @@ doit proc
 	mov ebx, 2
 	div ebx
 	ret
-	;error - integer overflow
+	;error - integer overflow - result is too large must be less than 32bit
 
 
 	;mov eax, 9		; eax(0000 0009) has the answer, edx(0000 0001) has the remainder
