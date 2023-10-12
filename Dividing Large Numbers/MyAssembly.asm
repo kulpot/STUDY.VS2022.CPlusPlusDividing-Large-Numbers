@@ -13,12 +13,19 @@ doit proc
 
 	; ----Dividing Large Numbers---
 
-	mov eax, 9		; eax(0000 0009) has the answer, edx(0000 0001) has the remainder
+	mov eax, 0xFFFFFFFFh
 	mov ebx, 2
 	mov edx, 1
 	div ebx
 	ret
-	
+
+
+	;mov eax, 9		; eax(0000 0009) has the answer, edx(0000 0001) has the remainder
+	;mov ebx, 2
+	;mov edx, 1
+	;div ebx
+	;ret
+	; ----Dividing Large Numbers---END
 	
 	
 	;mov eax, 9		; eax has the answer, edx has the remainder
