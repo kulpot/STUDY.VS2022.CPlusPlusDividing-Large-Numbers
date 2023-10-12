@@ -11,16 +11,26 @@ doit proc
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	; 9 / 2
 
-	mov eax, 9		; eax has the answer, edx has the remainder
+	; ----Dividing Large Numbers---
+
+	mov eax, 9
 	mov ebx, 2
+	mov edx, 1
 	div ebx
+	ret
+	
+	
+	
+	;mov eax, 9		; eax has the answer, edx has the remainder
+	;mov ebx, 2
+	;div ebx
 	
 	; 2 useful assembly instrutions: nop , ret
-	nop				; no operation or do nothing for debugging
-	nop
-	nop
-	nop
-	ret				; return 
+	;nop				; no operation or do nothing for debugging
+	;nop
+	;nop
+	;nop
+	;ret				; return 
 	
 	
 	
