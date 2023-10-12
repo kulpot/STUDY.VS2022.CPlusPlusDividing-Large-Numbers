@@ -14,8 +14,8 @@ doit proc
 	; ----Dividing Large Numbers---
 
 	mov eax, 0xFFFFFFFFh
+	mov edx, 0xFFFFFFFFh
 	mov ebx, 2
-	mov edx, 1
 	div ebx
 	ret
 
